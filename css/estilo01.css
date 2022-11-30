@@ -27,3 +27,30 @@ div{
     border: px solid orange;
     background-color: white;
 }
+
+nav{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+nav a{
+    color: aliceblue;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 17px;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+}
