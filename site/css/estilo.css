@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    padding: 10px 50px;
+    text-align: justify;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+nav .logo{
+    float: left;
+    display: block;
+    padding: 14px 50px;
+    width: 0.9%;
+}
+
+nav a{
+    color: aliceblue;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 17px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+}
+
+.cidade img{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.titulo h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.jorge{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sobrep{
+    border: solid 1px;
+    margin-right: 700px;
+}

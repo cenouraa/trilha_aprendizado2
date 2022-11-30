@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+    background: linear-gradient(to right, rgb(216, 216, 216), rgb(255, 255, 255));
+}
+
+img{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+div{
+    padding: 5px 200px;
+    
+}
+
+hr{
+    margin-top: 20px;
+}
+
+span{
+    padding: 10px 100px;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+nav .logo{
+    float: left;
+    display: block;
+    padding: 14px 50px;
+    width: 1.5%;
+}
+
+nav a{
+    color: aliceblue;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 17px;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+}
+
+.titulo h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.jorge{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+
+}
+
+.sobrep{
+    float: left;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+.video3{
+    position: relative;
+    margin-left: 22%;
+}
+
+.info p{
+    text-align: center;
+}
+
+.principal{
+    float: left;
+    color: azure;
+}
+
+.conteudo{
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.886));
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #fcff42;
+    text-align: justify; 
+
+    margin: 15px 2px 50px 2px;
+
+    padding: 15px 20px 15px 20px;
+}
+
+.principal2{
+    float: left;
+
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.886));
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #fcff42;
+
+    text-align: justify; 
+
+    margin: 15px 2px 25px 2px;
+
+    padding: 15px;
+
+    color: azure;
+}
+
+table{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.tabela2 td{
+    border: 1px solid azure;
+}
+
+
+audio{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.hino{
+    text-align: center;
+}
+
+.celso{
+    padding-bottom: 10px;
+}
+
+.rodape{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px){ /*responsividade - alteração do layout de acordo com o tamanho de tela*/
+    
+    body, .principal, .conteudo{ /*define os escopos que serão alterados*/
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
